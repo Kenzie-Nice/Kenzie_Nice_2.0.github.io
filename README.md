@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beginner HTML Page</title>
   <style>
-    background-color: #e0ffff;
-    .text-red { color: Blue;
+    background-color: blue; 
+    .text-blue { color: Blue;
     }
 
     /* ID selector */

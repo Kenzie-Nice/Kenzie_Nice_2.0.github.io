@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beginner HTML Page</title>
   <style>
-    background-color: blue; 
+    .canvas {     background-color: blue; 
+       }
     .text-blue { color: Blue;
     }
 

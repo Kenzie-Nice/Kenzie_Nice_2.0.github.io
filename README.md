@@ -24,7 +24,7 @@
   <p id="paragraph">There are many types of cups. Mugs, Coffee Cups, Teacups, Paper cups</p>
 
     <!-- Placeholder for the photo -->
-  <img src="placeholder.jpg" alt="Placeholder Image" class="photo">
+  <img src="preview16.jpg" alt="Placeholder Image" class="photo">
 
 </body>
 </html>

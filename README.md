@@ -1,14 +1,12 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beginner HTML Page</title>
   <style>
-    background-color: blue;
- 
-   .text-red {
-      color: red;
+    background-color: #e0ffff;
+    .text-red { color: Blue;
     }
 
     /* ID selector */
@@ -23,7 +21,10 @@
 
   <p class="text-red">This text is red.</p>
 
-  <p id="paragraph">There are many types of cups. Mugs, Coffee Cups, Tea cups, Paper cups</p>
+  <p id="paragraph">There are many types of cups. Mugs, Coffee Cups, Teacups, Paper cups</p>
+
+    <!-- Placeholder for the photo -->
+  <img src="placeholder.jpg" alt="Placeholder Image" class="photo">
 
 </body>
 </html>

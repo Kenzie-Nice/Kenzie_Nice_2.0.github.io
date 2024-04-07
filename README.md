@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,8 +12,6 @@
     .text-blue {
       color: blue;
     }
-
-    /* ID selector */
     #paragraph {
       font-weight: bold;
     }
@@ -34,7 +31,6 @@
     </p>
   </h2>
 
-  <!-- Placeholder for the photo -->
   <img src="preview16.jpg" alt="Placeholder Image" class="photo">
 
 </body>

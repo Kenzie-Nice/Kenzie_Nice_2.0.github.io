@@ -3,24 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Light Cyan Blue Page</title>
+  <title>Beginner HTML Page</title>
   <style>
-    body {
-      background-color: #e0ffff; /* Light Cyan background */
-      color: Black;
-      margin: 0; /* Remove default margin */
-      padding: 0; /* Remove default padding */
+    background-color: blue;
+ 
+   .text-red {
+      color: red;
+    }
+
+    /* ID selector */
+    #paragraph {
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-Internal CSS page
-This is a Page about cups
 
-<p>
-  There are different types of cups. Drinking cups, Mugs/coffee cups, tea cups
-</p>
+  <h1>This is a page about cups</h1>
 
+  <p class="text-red">This text is red.</p>
+
+  <p id="paragraph">There are many types of cups. Mugs, Coffee Cups, Tea cups, Paper cups</p>
 
 </body>
 </html>
+

@@ -33,7 +33,9 @@
 
   <h1>This is a page about cups</h1>
 
-  <p class="text-blue">We use cups all the time; as humans, we have had cups around for our entire existence. Fun, right? Did you know that the oldest cups ever found are actually made from skull caps!! <span class="hover-text">It leaves to question though what and where these skulls came from though.</span></p>
+  <p class="text-blue">We use cups all the time; as humans, we have had cups around for our entire existence. Fun, right? Did you know that the oldest cups ever found are actually made from skull caps!!</p>
+    
+  <span class="hover-text">It leaves to question though what and where these skulls came from though.</span></p>
 
   <p id="paragraph">There are many types of cups. Mugs, Coffee Cups, Teacups, Paper cups</p>
 

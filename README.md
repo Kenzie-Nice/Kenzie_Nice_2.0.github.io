@@ -15,13 +15,14 @@
     #paragraph {
       font-weight: bold;
     }
-    /* Hover
+    /* Hover effect */
     .hover-text {
       display: none;
     }
     .text-blue:hover + .hover-text {
       display: inline;
     }
+    /* Applying the Rinse font */
     body {
       font-family: rinse, sans-serif;
       font-style: normal;
@@ -33,8 +34,7 @@
 
   <h1>This is a page about cups</h1>
 
-  <p class="text-blue">We use cups all the time; as humans, we have had cups around for our entire existence. Fun, right? Did you know that the oldest cups ever found are actually made from skull caps!!</p>
-  <p class="hover-text">This text appears when you hover over the blue text.</p>
+  <p class="text-blue">We use cups all the time; as humans, we have had cups around for our entire existence. Fun, right? Did you know that the oldest cups ever found are actually made from skull caps!! <span class="hover-text">This text appears when you hover over the blue text.</span></p>
 
   <p id="paragraph">There are many types of cups. Mugs, Coffee Cups, Teacups, Paper cups</p>
 

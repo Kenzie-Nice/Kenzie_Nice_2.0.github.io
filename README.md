@@ -1,11 +1,18 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beginner HTML Page</title>
-  <link rel="stylesheet" href="https://use.typekit.net/txt4pqn.css""> 
+  <link rel="stylesheet" href="https://use.typekit.net/txt4pqn.css"> 
   <style>
+    /* Applying the Rinse font */
+    body {
+      font-family: rinse, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+   /* Class selector */
     .canvas {
       background-color: rgb(0, 0, 255);
     }
@@ -21,12 +28,6 @@
     }
     .text-blue:hover + .hover-text {
       display: inline;
-    }
-    /* Applying the Rinse font */
-    body {
-      font-family: rinse, sans-serif;
-      font-style: normal;
-      font-weight: 400;
     }
   </style>
 </head>

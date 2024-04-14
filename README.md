@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beginner HTML Page</title>
   <style>
-  <link rel="stylesheet" href="https://use.typekit.net/txt4pqn.css"> 
+  <link rel="stylesheet" href="https://use.typekit.net/txt4pqn.css">
   <style>
     /* Applying the Rinse font */
     body {

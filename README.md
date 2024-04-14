@@ -1,62 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beginner HTML Page</title>
-    <link rel="stylesheet" href="https://use.typekit.net/txt4pqn.css"> 
-    <style>
-        /* Basic styling for heading */
-        h1 {
-            font-size: 24px;
-            color: #333;
-            margin-bottom: 20px;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beginner HTML Page</title>
+  <style>
+    /* Class selector */
+    .canvas {
+      background-color: rgb(0, 0, 255);
+    }
 
-  /* Basic styling for paragraphs */
-        p {
-            font-size: 16px;
-            color: #666;
-            margin-bottom: 15px;
-        }
+    .text-blue {
+      color: blue;
+      font-style: italic; /* Added font style */
+      font-weight: bold; /* Added font weight */
+    }
+    #paragraph {
+      font-weight: bold;
+    }
 
-   /* Hover effect */
-        .hover-text {
-            display: none;
-        }
-        .text-blue:hover + .hover-text {
-            display: inline;
-        }
-        /* Additional styling */
-        h2 {
-            font-size: 20px;
-            color: #444;
-            margin-bottom: 15px;
-        }
-        .photo {
-            max-width: 100%;
-            height: auto;
-        }
-     .canvas {
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            background-color: #f9f9f9;
-        }
-    </style>
+    /* Hover effect */
+    .hover-text {
+      display: none;
+    }
+
+    .text-blue:hover + .hover-text {
+      display: inline;
+    }
+  </style>
 </head>
 <body>
-   <h1>This is a page about cups</h1>
-    <p class="text-blue">We use cups all the time; as humans, we have had cups around for our entire existence. Fun, right? Did you know that the oldest cups ever found are actually made from skull caps!! 
-        <span class="hover-text">It leaves to question though what and where these skulls came from though.</span></p>
 
-<p id="paragraph">There are many types of cups. Mugs, Coffee Cups, Teacups, Paper cups</p>
-    <h2>See, here are some more cups... Colorful, right?</h2>
-    <div class="canvas">
-        <img src="preview16.jpg" alt="Placeholder Image" class="photo">
-    </div>
+  <h1>This is a page about cups</h1>
+
+  <p class="text-blue">We use cups all the time; as humans, we have had cups around for our entire existence. Fun, right? Did you know that the oldest cups ever found are actually made from skull caps!! <span class="hover-text">It leaves to question though what and where these skulls came from though.</span></p>
+
+  <p id="paragraph">There are many types of cups. Mugs, Coffee Cups, Teacups, Paper cups</p>
+
+  <h2>
+    <p>
+      See, here are some more cups... Colorful, right?
+    </p>
+  </h2>
+
+  <img src="preview16.jpg" alt="Placeholder Image" class="photo">
 
 </body>
 </html>
-
-

@@ -32,7 +32,7 @@
   <h1>This is a page about cups</h1>
 
   <p class="text-blue">We use cups all the time; as humans, we have had cups around for our entire existence. Fun, right? Did you know that the oldest cups ever found are actually made from skull caps!!</p>
-  <p class="hover-text">This text appears when you hover over the blue text.</p>
+  <p class="hover-text"> Was it human, though is a question for another time! ;) .</p>
 
   <p id="paragraph">There are many types of cups. Mugs, Coffee Cups, Teacups, Paper cups</p>
 

@@ -1,9 +1,10 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beginner HTML Page</title>
+  <link rel="stylesheet" href="https://use.typekit.net/txt4pqn.css"> 
   <style>
     /* Class selector */
     .canvas {
@@ -49,3 +50,4 @@
 
 </body>
 </html>
+

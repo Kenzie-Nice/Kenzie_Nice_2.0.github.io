@@ -16,7 +16,7 @@
   font-style: italic; /* Added font style */
   font-weight: bold; /* Added font weight */
   border: 10px outset black; /* Border with outset style */
-  padding: 10px; /* Padding */
+  padding: 18px; /* Padding */
   overflow: hidden; /* Overflow */
   display: inline-block; /* Display */
   margin: 10px; /* Margin */

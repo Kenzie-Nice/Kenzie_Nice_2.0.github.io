@@ -34,8 +34,8 @@
       display: none;
       position: absolute;
       background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      min-width: 260px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
       z-index: 1;
     }
     
@@ -77,9 +77,9 @@
   <img src="preview16.jpg" alt="Placeholder Image" class="photo">
 
   <div class="dropdown">
-    <button>Dropdown</button>
+    <button>Look at me</button>
     <div class="dropdown-content">
-      <p>Dropdown Content Here</p>
+      <p>Fun Fact! A regular coffee cup holds about 12 ounces, where as a tea cup holds only about 6 ounces. So if you drink tea in a coffee mug its like drinking 2 cups of tea at once! </p>
     </div>
   </div>
 

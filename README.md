@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -48,10 +49,14 @@
     /* Hover effect */
     .hover-text {
       display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      border: 1px solid black;
+      padding: 10px;
     }
 
     .text-blue:hover + .hover-text {
-      display: inline;
+      display: block;
     }
   </style>
 </head>
@@ -79,6 +84,9 @@
       <p>Dropdown Content Here</p>
     </div>
   </div>
+
+</body>
+</html>
 
 </body>
 </html>

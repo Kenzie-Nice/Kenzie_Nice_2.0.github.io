@@ -60,7 +60,7 @@
       display: block;
     }
     .photo {
-      width: 400px;
+      width: 550px;
     }
   </style>
 </head>

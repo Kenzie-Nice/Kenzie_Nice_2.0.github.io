@@ -85,7 +85,7 @@
     </p>
   </h2>
 
-  <img src="preview16.jpg" alt="Placeholder Image" class="photo">
+  <img src="coffee-mug_NVKXLIKJ25.jpg" alt="Placeholder Image" class="photo">
   <img src="tea-black-tea-drink-tea-cup-preview.jpg" alt="Placeholder Image" class="photo">
 
   <div class="dropdown">

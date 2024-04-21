@@ -15,7 +15,7 @@
   color: blue;
   font-style: italic; /* Added font style */
   font-weight: bold; /* Added font weight */
-  border: 1px outset black; /* Border with outset style */
+  border: 10px outset black; /* Border with outset style */
   padding: 10px; /* Padding */
   overflow: hidden; /* Overflow */
   display: inline-block; /* Display */

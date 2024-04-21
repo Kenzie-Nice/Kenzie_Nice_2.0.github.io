@@ -60,7 +60,7 @@
 
     /* Set width for the photo */
     .photo {
-      width: 200px; /* Adjust size as needed */
+      width: 400px; /* Adjust size as needed */
     }
   </style>
 </head>

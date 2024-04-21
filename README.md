@@ -12,14 +12,14 @@
 
     .text-blue {
       color: blue;
-      font-style: italic; /* Added font style */
-      font-weight: bold; /* Added font weight */
-      border: 10px outset black; /* Border with outset style */
-      padding: 18px; /* Padding */
-      overflow: hidden; /* Overflow */
-      display: inline-block; /* Display */
-      margin: 10px; /* Margin */
-      position: relative; /* Position */
+      font-style: italic; 
+      font-weight: bold; 
+      border: 10px outset black; 
+      padding: 18px; 
+      overflow: hidden;
+      display: inline-block;
+      margin: 10px; 
+      position: relative; 
     }
 
     /* Dropdown */
@@ -60,7 +60,7 @@
 
     /* Set width for the photo */
     .photo {
-      width: 400px; /* Adjust size as needed */
+      width: 400px;
     }
   </style>
 </head>
@@ -81,6 +81,7 @@
   </h2>
 
   <img src="preview16.jpg" alt="Placeholder Image" class="photo">
+  <img src="tea-black-tea-drink-tea-cup-preview.jpg" alt="Placeholder Image" class="photo">
 
   <div class="dropdown">
     <button>Look at me</button>

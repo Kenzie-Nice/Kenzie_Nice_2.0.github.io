@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,11 +9,14 @@
     /* Set background color for the entire page */
     body {
       background-color: tan;
+      margin: 0; /* Reset default margin */
+      padding: 0; /* Reset default padding */
     }
 
     /* Class selector */
     .canvas {
       background-color: rgb(0, 0, 355);
+      margin-bottom: 20px; /* Add some space below the heading */
     }
 
     .text-blue {
@@ -31,6 +35,7 @@
     .dropdown {
       position: relative;
       display: inline-block;
+      margin-bottom: 20px; /* Add some space below the dropdown */
     }
 
     .dropdown-content {
@@ -40,8 +45,8 @@
       min-width: 260px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
       z-index: 1;
-      top: 100%; /* Position below the button */
-      left: 0; /* Align with the button */
+      top: calc(100% + 5px); /* Position below the button with a small gap */
+      left: 0;
     }
 
     .dropdown:hover .dropdown-content {
@@ -50,6 +55,7 @@
 
     #paragraph {
       font-weight: bold;
+      margin-top: 20px; /* Add some space above the paragraph */
     }
 
     /* Hover effect */
@@ -73,7 +79,7 @@
 </head>
 <body>
 
-  <h1><span class="canvas">This is a page about cups</span></h1>
+  <h1 class="canvas">This is a page about cups</h1>
 
   <p class="text-blue">We use cups all the time; as humans, we have had cups around for our entire existence. Fun, right? Did you know that the oldest cups ever found are actually made from skull caps!!
     <span class="hover-text">It leaves us to question though what and where these skulls came from though.</span>
@@ -99,5 +105,4 @@
 
 </body>
 </html>
-
 

@@ -40,6 +40,8 @@
       min-width: 260px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
       z-index: 1;
+      top: 100%; /* Position below the button */
+      left: 0; /* Align with the button */
     }
 
     .dropdown:hover .dropdown-content {
@@ -97,4 +99,5 @@
 
 </body>
 </html>
+
 

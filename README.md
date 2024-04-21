@@ -8,7 +8,7 @@
   <style>
     /* Class selector */
     .canvas {
-      background-color: rgb(0, 0, 255);
+      background-color: rgb(0, 0, 355);
     }
 
 .text-blue {

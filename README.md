@@ -6,8 +6,14 @@
   <title>Beginner HTML Page</title>
   <link rel="stylesheet" href="https://use.typekit.net/txt4pqn.css"> 
   <style>
+    /* Set background color for the entire page */
+    body {
+      background-color: tan;
+    }
+
+    /* Class selector */
     .canvas {
-      background-color: tan; 
+      background-color: rgb(0, 0, 355);
     }
 
     .text-blue {
@@ -22,7 +28,7 @@
       position: relative; 
     }
 
-
+    /* Dropdown */
     .dropdown {
       position: relative;
       display: inline-block;
@@ -45,7 +51,7 @@
       font-weight: bold;
     }
 
-
+    /* Hover effect */
     .hover-text {
       display: none;
       position: absolute;
@@ -58,7 +64,7 @@
       display: block;
     }
 
-   
+    /* Set width for the photo */
     .photo {
       width: 400px;
     }
@@ -92,3 +98,4 @@
 
 </body>
 </html>
+

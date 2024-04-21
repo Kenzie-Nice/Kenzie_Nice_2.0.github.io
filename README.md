@@ -12,14 +12,14 @@
     }
 
   .content-container {
-      border: 2px solid #3e2723; /* Dark brown border */
-      padding: 20px; /* Add padding around the content */
-      margin: 20px; /* Add margin to create space between the border and the edge of the page */
+      border: 12px solid #3e2723;
+      padding: 20px; 
+      margin: 20px; 
     }
 
   .canvas {
       background-color: rgb(0, 0, 355);
-      margin-bottom: 20px; /* Add some space below the heading */
+      margin-bottom: 20px;
     }
 
    .text-blue {
@@ -36,7 +36,7 @@
    .dropdown {
       position: relative;
       display: inline-block;
-      margin-bottom: 20px; /* Add some space below the dropdown */
+      margin-bottom: 20px;
     }
 
   .dropdown-content {
@@ -63,7 +63,7 @@
       display: none;
       position: absolute;
       background-color: #f9f9f9;
-      border: 1px solid black;
+      border: 3px solid black;
       padding: 10px;
       color: #3e2723; /* Dark brown color */
     }
@@ -81,7 +81,7 @@
   <div class="content-container">
     <h1 class="canvas">This is a page about cups</h1>
 
-  <p class="text-blue">We use cups all the time; as humans, we have had cups around for our entire existence. Fun, right? Did you know that the oldest cups ever found are actually made from skull caps!!
+  <p class="text-blue">We use cups all the time; as humans, we have had cups around for our entire existence. Fun, right? Did you know that the oldest cups ever found are made from skull caps!!
       <span class="hover-text">It leaves us to question though what and where these skulls came from though.</span>
     </p>
     <p id="paragraph">There are many types of cups. Mugs, Coffee Cups, Teacups, Paper cups</p>

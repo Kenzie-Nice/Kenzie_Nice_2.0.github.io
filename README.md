@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -11,26 +10,25 @@
       background-color: rgb(0, 0, 355);
     }
 
-.text-blue {
-  color: blue;
-  font-style: italic; /* Added font style */
-  font-weight: bold; /* Added font weight */
-  border: 10px outset black; /* Border with outset style */
-  padding: 18px; /* Padding */
-  overflow: hidden; /* Overflow */
-  display: inline-block; /* Display */
-  margin: 10px; /* Margin */
-  position: relative; /* Position */
-}
+    .text-blue {
+      color: blue;
+      font-style: italic; /* Added font style */
+      font-weight: bold; /* Added font weight */
+      border: 10px outset black; /* Border with outset style */
+      padding: 18px; /* Padding */
+      overflow: hidden; /* Overflow */
+      display: inline-block; /* Display */
+      margin: 10px; /* Margin */
+      position: relative; /* Position */
+    }
 
-    
-   /* Dropdown */
+    /* Dropdown */
     .dropdown {
       position: relative;
       display: inline-block;
     }
-    
-   .dropdown-content {
+
+    .dropdown-content {
       display: none;
       position: absolute;
       background-color: #f9f9f9;
@@ -38,13 +36,15 @@
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
       z-index: 1;
     }
-    
-   .dropdown:hover .dropdown-content {
+
+    .dropdown:hover .dropdown-content {
       display: block;
     }
+
     #paragraph {
-     font-weight: bold;
+      font-weight: bold;
     }
+
     /* Hover effect */
     .hover-text {
       display: none;
@@ -53,8 +53,14 @@
       border: 1px solid black;
       padding: 10px;
     }
+
     .text-blue:hover + .hover-text {
       display: block;
+    }
+
+    /* Set width for the photo */
+    .photo {
+      width: 200px; /* Adjust size as needed */
     }
   </style>
 </head>
@@ -85,8 +91,3 @@
 
 </body>
 </html>
-
-</body>
-</html>
-
-
